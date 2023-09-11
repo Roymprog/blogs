@@ -1,13 +1,24 @@
 ---
 author: Roy van Santen
 brand: xebia.com
+canonical: https://xebia.com/blog/how-ml-system-design-helps-us-to-make-better-ml-products/
+categories:
+- data-ai
+- data-science-and-ai
+- mlops
+- technology
 date: 2023-08-09 21:54:00+02:00
-email: roy.vansanten@xebia.com
-focus-keywords: ml system design mlops machine learning
+excerpt: With the industry moving towards end-to-end ML teams to enable them to implement
+  MLOPs practices, it is paramount to look past the model and view the entire system
+  around your machine learning model. The classic article on Hidden Technical Debt
+  in Machine Learning Systems explains how small the model is compared to the system
+  it […]
 guid: https://xebia.com/wp-json/wp/v2/posts/66518
+og:
+  description: Data How ML System Design helps us to make better ML products - Xebia
+permalink_template: https://xebia.com/blog/%postname%/
 slug: how-ml-system-design-helps-us-to-make-better-ml-products
-status: draft
-subtitle: 'ML System Design: a holistic approach to machine learning'
+status: publish
 title: How ML System Design helps us to make better ML products
 ---
 
@@ -52,7 +63,7 @@ There is no single way to do system design. Here I propose a sequence of steps y
 
 The Machine Learning System Design canvas below can be used as a handle during a design to keep track of decisions. It contains questions that can guide you through the design process. Their relevance will be explained throughout this blog.
 
-![Machine Learning System Design canvas](./images/MLSD_canvas.jpeg "Machine Learning System Design canvas")
+![Machine Learning System Design canvas](images/MLSD_canvas.jpeg "Machine Learning System Design canvas")
 
 ### Clarify requirements and frame as ML task
 Designing an ML system is a technical exercise. But, including business people like Product Managers, Subject Matter Experts, or other stakeholders will ensure your technical design meets business needs. They will help you clarifying your business requirements. It is your job to clarify the requirements set by business and translate them to technical specifications. Often, requirements are not clear enough at the start. You need to refine them with business to frame the problem as something that is solvable with ML. 
@@ -67,9 +78,11 @@ At the end of this exercise you should know:
 Your company asks you to optimize their warehouse inventory because they often have too many or too few products in stock. In itself, this is not a Machine learning task, so let's reframe the problem. We can predict item demand as a regression problem, which will help determine when to make new purchases. The company has *P* products and places monthly orders with a three-month lead time, so we'll need to make 3 x *P* predictions each month.
 
 <details>
+
 <summary>The scope of the design is clear now. Expanding this sections shows what the full worked out design looks like.</summary>
 
-![Image high level design](./images/batch_container_diagram.png)
+<p><img decoding="async" alt="Image high level design" src="https://xebia.com/wp-content/uploads/2023/09/how-ml-system-design-helps-us-to-make-better-ml-products-MLSD_canvas.jpeg"/><br />
+
 </details>
 
 ### Identify data sources and their availability
