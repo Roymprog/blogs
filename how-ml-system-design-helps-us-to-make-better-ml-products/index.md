@@ -81,7 +81,7 @@ Your company asks you to optimize their warehouse inventory because they often h
 
 <summary>The scope of the design is clear now. Expanding this sections shows what the full worked out design looks like.</summary>
 
-<p><img decoding="async" alt="Image high level design" src="https://xebia.com/wp-content/uploads/2023/09/how-ml-system-design-helps-us-to-make-better-ml-products-MLSD_canvas.jpeg"/><br />
+<p><img decoding="async" alt="Image high level design" src="https://xebia.com/wp-content/uploads/2023/08/how-ml-system-design-helps-us-to-make-better-ml-products-batch_container_diagram.png.webp"/><br />
 
 </details>
 
@@ -129,3 +129,10 @@ From this initial high level architecture we can start filling out concrete tech
 We have walked through the entire process of designing a machine learning system thereby following an example use case. This process is by no means complete. It does provide a solid basis to start from. I'd be interested in hearing about other frameworks used for designing machine learning systems. The steps and questions used to guide you through the system design are a subset to scope the discussion. The full design canvas looks as follows: 
 
 ![online](images/MLSD_canvas_full.png).
+
+If you're interested in the topic and want to hone your design skills  under the guidance of an experienced trainer, there is a [Machine Learning System Design course](https://xebia.com/academy/en/training/machine-learning-system-design) you can take.
+
+### Sources
+- [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+- [Machine Learning Design Patterns](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
+- [Machine Learning System Design Interview](https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127)
